@@ -22,8 +22,11 @@ sudo systemctl start nginx
 ```
 systemctl status nginx
 ```
--Goto folder `/var/wwww/html` folder created html file.
+### 4. Deploy HTML Page
+- Navigate to `/var/www/html` directory:
+```
+cd /var/www/html
+```
+- Create an `index.html` file.
+- Open your EC2 public IP in the browser. The HTML page should load.
 
--Write HTML code to serve.
-
--Paste ip on chrome -- Boom -- HTML on chorome-

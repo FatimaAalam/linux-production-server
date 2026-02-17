@@ -6,10 +6,15 @@ Updated system
 Sudo apt Update
 ```
 Install nginx 
-`sudo apt install nginx -y`
-`sudo systemctl enable nginx`
+```
+sudo apt install nginx -y
+sudo systemctl enable nginx
+```
+
 Check nginx status
-`systemctl status nginx`
-goto folder /var/wwww/html folder created html file.
+```
+systemctl status nginx
+```
+Goto folder `/var/wwww/html` folder created html file.
 Write HTML code to serve.
 Paste ip on chrome -- Boom -- HTML on chorome-
